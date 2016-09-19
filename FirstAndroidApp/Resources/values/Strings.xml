@@ -2,5 +2,7 @@
 <resources>
     <string name="Hello">Hello World, Click Me!</string>
     <string name="ApplicationName">Task Tracker</string>
-  <string name="AddTask">Add Task</string>
+  <string name="addViewTask">Save Task</string>
+  <string name="deleteTask">Delete Task</string>
+  <string name="addTask">Add Task</string>
 </resources>

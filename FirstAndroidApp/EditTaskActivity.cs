@@ -37,10 +37,10 @@ namespace FirstAndroidApp
                 UpdateTrip();
                 new TaskManager().SaveTask(_task);
 
-                //var intent = new Intent(this, typeof(ViewTripDetailScreen));
-                //intent.PutExtra("SelectedTripId", _trip.Id.ToString());
+                var intent = new Intent(this, typeof(MainActivity));
+                //intent.PutExtra("SelectedTaskName", _task.Name);
 
-                //base.StartActivity(intent);
+                base.StartActivity(intent);
             };
 
             FindViewById<Button>(Resource.Id.editTaskButtonDelete).Click += (s, e) =>

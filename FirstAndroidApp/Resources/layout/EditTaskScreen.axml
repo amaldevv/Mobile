@@ -40,12 +40,12 @@
         android:layout_height="100dp"
         android:id="@+id/editTaskEditTextDesc" />
     <Button
-        android:text="Add/View Task"
+        android:text="@string/addViewTask"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/editTaskButtonSave" />
     <Button
-        android:text="delete Task"
+        android:text="@string/deleteTask"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:id="@+id/editTaskButtonDelete"

@@ -18,7 +18,7 @@
         android:id="@+id/homeButtonAddTask"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="@string/AddTask"
+        android:text="@string/addTask"
         />
   </RelativeLayout>
 </RelativeLayout>

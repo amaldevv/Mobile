@@ -105,6 +105,21 @@ namespace FirstAndroidApp
 			// aapt resource value: 0x7f050005
 			public const int textView5 = 2131034117;
 			
+			// aapt resource value: 0x7f050010
+			public const int viewTaskDetailLayout = 2131034128;
+			
+			// aapt resource value: 0x7f050012
+			public const int viewTaskDetailTextViewDesc = 2131034130;
+			
+			// aapt resource value: 0x7f050013
+			public const int viewTaskDetailTextViewTaskEstCompDate = 2131034131;
+			
+			// aapt resource value: 0x7f050011
+			public const int viewTaskDetailTextViewTaskName = 2131034129;
+			
+			// aapt resource value: 0x7f05000f
+			public const int viewTaskDetailscrollView = 2131034127;
+			
 			static Id()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -127,6 +142,9 @@ namespace FirstAndroidApp
 			// aapt resource value: 0x7f030002
 			public const int Main = 2130903042;
 			
+			// aapt resource value: 0x7f030003
+			public const int ViewTaskScreen = 2130903043;
+			
 			static Layout()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -140,14 +158,20 @@ namespace FirstAndroidApp
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f040002
-			public const int AddTask = 2130968578;
-			
 			// aapt resource value: 0x7f040001
 			public const int ApplicationName = 2130968577;
 			
 			// aapt resource value: 0x7f040000
 			public const int Hello = 2130968576;
+			
+			// aapt resource value: 0x7f040004
+			public const int addTask = 2130968580;
+			
+			// aapt resource value: 0x7f040002
+			public const int addViewTask = 2130968578;
+			
+			// aapt resource value: 0x7f040003
+			public const int deleteTask = 2130968579;
 			
 			static String()
 			{

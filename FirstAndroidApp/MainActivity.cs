@@ -11,7 +11,7 @@ using TaskTracker.Core.BL;
 
 namespace FirstAndroidApp
 {
-    [Activity(Label = "TaskTracker", MainLauncher = true, Icon = "@drawable/icon")]
+    [Activity(Label = "Task Tracker", MainLauncher = true, Icon = "@drawable/icon")]
     public class MainActivity : Activity
     {
         private ListView _taskView;
