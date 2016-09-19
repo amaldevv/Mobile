@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/editTaskcrollView">
+  <LinearLayout
+      android:orientation="vertical"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content">
+    <TextView
+        android:text="Task Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTaskTextViewTaskName" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTaskEditTextTaskName" />
+    <TextView
+        android:text="Est Completion Date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2" />
+    <DatePicker
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTaskDatePickerEstComp" />
+    
+   
+    <TextView
+        android:text="Description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView5" />
+    <EditText
+        android:inputType="textMultiLine"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/editTaskEditTextDesc" />
+    <Button
+        android:text="Add/View Task"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTaskButtonSave" />
+    <Button
+        android:text="delete Task"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/editTaskButtonDelete"
+        android:layout_marginTop="2dip" />
+  </LinearLayout>
+</ScrollView>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+  <LinearLayout
+      android:id="@+id/Text"
+      android:orientation="vertical"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:paddingLeft="10dip">
+    <TextView
+        android:id="@+id/TaskName"
+        android:text="Goa trip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#0099CC"
+        android:textSize="24dip"
+        android:textStyle="italic" />
+    <TextView
+        android:id="@+id/TaskEstimatedCompletionDate"
+        android:text="from 10 june to 12 june"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14dip"
+        android:textColor="#FFBB33"
+        android:paddingLeft="23dip" />
+  </LinearLayout>
+  
+</RelativeLayout>
